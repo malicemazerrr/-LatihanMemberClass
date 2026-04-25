@@ -22,6 +22,9 @@ namespace LatihanMemberClass
             ticket1.Currency = "USD";
             ticket2.Currency = "IDR";
 
+            ticket1.PrintSummary();
+            ticket2.PrintSummary();
+
         }
     }
 }
